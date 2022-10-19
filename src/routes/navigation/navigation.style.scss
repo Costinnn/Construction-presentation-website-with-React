@@ -1,0 +1,56 @@
+$color-black: #000000;
+$color-gray: #797b84;
+$color-white: #e8e9eb;
+$color-yellow: #ffbc0a;
+$color-orange: #ff6542;
+
+@import '../../components/backgroundStyle/background-color';
+
+.nav-container {
+  // border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  width: 100vw;
+  max-width: 1440px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: $color-gray;
+
+  .logo {
+    width: 160px;
+  }
+  
+  .nav-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+  }
+
+  li {
+    list-style: none;
+    font-weight: bold;
+  }
+
+  .phone {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: $color-orange;
+
+    .material-symbols-outlined {
+      font-variation-settings: "FILL" 1, "wght" 600, "GRAD" 0, "opsz" 48;
+    }
+  }
+
+  
+
+  @media (min-width:1440px){
+  }
+  
+
+}
+
+

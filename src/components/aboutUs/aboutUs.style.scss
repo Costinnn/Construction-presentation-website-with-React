@@ -1,0 +1,87 @@
+.positioning {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .aboutUs-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    max-width: 1440px;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    position: relative;
+    overflow: hidden;
+
+    .shape1,
+    .shape2{
+      background-color: #ff6542;
+      position: absolute;
+      z-index: -2;
+      transform: skew(-30deg);
+    }
+
+    .shape1 {
+      height: 100%;
+      width: 400px;
+      top: -20px;
+      left: 15%;
+      
+    }
+
+    .shape2 {
+      height: 90%;
+      width: 350px;
+      opacity: 30%;
+      bottom: 0;
+      right: -180px;
+    }
+
+    .photo-container {
+      width: 50vw;
+      height: 400px;
+      position: relative;
+    }
+
+    .back-image,
+    .houseStage {
+      width: 48vw;
+      max-width: 600px;
+    }
+
+    .back-image {
+      filter: brightness(60%);
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      left: 0;
+    }
+
+    .houseStage {
+      margin-top: 50px;
+      margin-left: 50px;
+    }
+
+    .aboutUs-text {
+      width: 30vw;
+      max-width: 500px;
+      margin-right: 70px;
+
+      span {
+        font-weight: 600;
+      }
+      h2 {
+        font-weight: 800;
+        font-size: 2rem;
+        margin-bottom: 40px;
+      }
+
+      p {
+        color: #797b84;
+        font-size: 0.8rem;
+      }
+    }
+  }
+}

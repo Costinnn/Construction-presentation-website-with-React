@@ -1,0 +1,47 @@
+.positioning{
+    position: relative;
+    color: #e8e9eb;
+    
+
+    .offered-services-container{
+        width: 100vw;
+        max-width: 1440px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-top: 100px;
+        height: 74vh;
+        
+        >div:first-child{
+            text-align: center;
+        }
+
+        h2{
+            font-weight: 800;
+            font-size: 2rem;
+        
+        }
+
+        .constructor-img{
+            margin: 15px;
+            max-width: 400px;
+        }
+    }
+
+    .service-boxes{
+        width: 635px;
+        max-height: 300px;
+        display: grid;
+        grid-template-columns: 300px 300px;
+        column-gap: 35px;
+        row-gap: 50px;
+    }
+
+    .background-color{
+        position: absolute;
+        z-index: -1;
+        width: 100vw;
+        height: 100%;
+        background: linear-gradient(to left, #000000de 50%, rgba(0, 0, 0, 0.322));
+    }
+}

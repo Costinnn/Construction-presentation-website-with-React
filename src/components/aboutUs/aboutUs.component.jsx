@@ -8,9 +8,11 @@ const AboutUs = () => {
       <div className="aboutUs-container">
         <div className="shape1"></div>
         <div className="shape2"></div>
+        <div className="shape4"></div>
         <div className="photo-container">
           <img className="back-image" src={houseStage} alt="" />
           <img className="houseStage" src={houseStage} alt="" />
+          <div className="shape3"></div>
         </div>
         <div className="aboutUs-text">
           <h2>ABOUT US</h2>

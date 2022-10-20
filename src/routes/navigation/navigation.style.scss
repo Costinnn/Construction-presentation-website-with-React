@@ -4,8 +4,6 @@ $color-white: #e8e9eb;
 $color-yellow: #ffbc0a;
 $color-orange: #ff6542;
 
-@import '../../components/backgroundStyle/background-color';
-
 .nav-container {
   // border: 1px solid red;
   display: flex;
@@ -16,7 +14,7 @@ $color-orange: #ff6542;
   max-width: 1440px;
   padding-left: 20px;
   padding-right: 20px;
-  color: $color-gray;
+  color: $color-white;
 
   .logo {
     width: 160px;

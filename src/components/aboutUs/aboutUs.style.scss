@@ -16,22 +16,44 @@
     overflow: hidden;
 
     .shape1,
-    .shape2{
-      background-color: #ff6542;
+    .shape2,
+    .shape3,
+    .shape4 {
+      
       position: absolute;
       z-index: -2;
       transform: skew(-30deg);
     }
 
     .shape1 {
-      height: 100%;
+      background-color: #ff6542;
+      height: 86%;
       width: 400px;
       top: -20px;
-      left: 15%;
-      
+      left: 30px;
     }
 
     .shape2 {
+      background: linear-gradient(to bottom,#ff6542, #ff654218);
+      height: 20%;
+      width: 550px;
+      bottom: 0;
+      left: -50px;
+      opacity: 23%;
+    }
+
+    .shape3{
+      background-color: #ff6542;
+      height: 60%;
+      width: 70px;
+      z-index: 1;
+      top: 60%;
+      right: 25%;
+      opacity: 95%;
+    }
+
+    .shape4{
+      background: linear-gradient(to top,#ff6542, #ff65426c);
       height: 90%;
       width: 350px;
       opacity: 30%;

@@ -62,6 +62,7 @@ const OfferedServices = () => {
           })}
         </div>
       </div>
+      <div className="background-img"></div>
       <div className="background-color"></div>
     </div>
   );

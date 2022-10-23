@@ -4,6 +4,7 @@ import Services from "../../components/services/services.component";
 import AboutUs from "../../components/aboutUs/aboutUs.component";
 import OfferedServices from "../../components/offeredServices/offeredServices.component";
 import Clients from "../../components/clients/clients.component";
+import QuotationBanner from "../../components/quotation-banner/quotation-banner.component";
 
 const Homepage = () => {
   return (
@@ -13,6 +14,7 @@ const Homepage = () => {
       <AboutUs />
       <OfferedServices/>
       <Clients />
+      <QuotationBanner />
     </div>
   );
 };

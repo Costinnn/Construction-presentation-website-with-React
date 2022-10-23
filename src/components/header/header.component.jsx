@@ -1,6 +1,6 @@
 import "./header.style.scss";
-import manison from '../../assets/manison.png'
-import Button from '../button/button.component'
+import manison from "../../assets/manison.png";
+import Button from "../button/button.component";
 
 const Header = () => {
   return (
@@ -22,9 +22,9 @@ const Header = () => {
           <img className="manison" src={manison} alt="" />
         </div>
       </div>
-      <div className="background-color">
-
-      </div>
+      <div className="background-img"></div>
+      <div className="background-color"></div>
+      
     </div>
   );
 };

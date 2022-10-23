@@ -36,12 +36,25 @@
     }
   }
 
-  .background-color {
+  .background-color,
+  .background-img {
     position: absolute;
     z-index: -1;
     width: 100vw;
     height: 110%;
     top: 0px;
-    background: linear-gradient(to right bottom, #000000 10%, white);
+  }
+
+  .background-color {
+    background: linear-gradient(
+      to right bottom,
+      #000000 10%,
+      rgba(0, 0, 0, 0)
+    );
+  }
+
+  .background-img {
+    background-image: url(../../assets/header-background.jpg);
+    background-size: cover;
   }
 }

@@ -1,7 +1,8 @@
 import './button.style.scss'
 
 const BUTTON_TYPE = {
-    hidden:'hidden'
+    hidden:'hidden',
+    nomargin:'nomargin'
 };
 
 const Button = ({children, buttonType}) =>{

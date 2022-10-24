@@ -1,6 +1,7 @@
 import "./header.style.scss";
 import manison from "../../assets/manison.png";
 import Button from "../button/button.component";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -16,7 +17,7 @@ const Header = () => {
             installations, structure and so on. The quality of the final product
             is what represents us
           </p>
-          <Button>Get more information</Button>
+         <Link to='services'><Button>Get more information</Button></Link> 
         </div>
         <div>
           <img className="manison" src={manison} alt="" />

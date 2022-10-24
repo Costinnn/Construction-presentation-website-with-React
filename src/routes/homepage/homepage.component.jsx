@@ -1,4 +1,3 @@
-import "./homepage.style.scss";
 import Header from "../../components/header/header.component";
 import Services from "../../components/services/services.component";
 import AboutUs from "../../components/aboutUs/aboutUs.component";

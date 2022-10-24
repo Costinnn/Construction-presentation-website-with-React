@@ -1,0 +1,16 @@
+.services-img{
+    background-image: url(../../assets/menu-pages/services/services-background.jpg);
+    background-position: bottom;
+}
+
+.services-page-container{
+    width: 100vw;
+    max-width: 1440px;
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+

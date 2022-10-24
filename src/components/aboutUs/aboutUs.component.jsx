@@ -1,6 +1,7 @@
 import "./aboutUs.style.scss";
 import houseStage from "../../assets/house-stage.jpg";
 import Button from "../button/button.component";
+import { Link } from "react-router-dom";
 
 const AboutUs = () => {
   return (
@@ -38,7 +39,9 @@ const AboutUs = () => {
             and with the clients for the efficient and beneficial solution for
             all parties of all problems that arise during the activity.
           </p>
-          <Button>Discover more about us</Button>
+          <Link to="aboutus" className="link">
+            <Button>Discover more about us</Button>
+          </Link>
         </div>
       </div>
     </div>

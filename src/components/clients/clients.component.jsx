@@ -4,6 +4,7 @@ import clientsExcavator from "../../assets/clients-excavator.png";
 import client1 from "../../assets/client1.jpg";
 import client2 from "../../assets/client2.jpg";
 import Button from "../button/button.component";
+import { Link } from "react-router-dom";
 
 const Clients = () => {
   return (
@@ -16,7 +17,9 @@ const Clients = () => {
             construction company that provides all services for turnkey houses
             and other small or big construction projects.
           </p>
-          <Button>Discover more about our projects</Button>
+          <Link to="portfolio" className="link">
+            <Button>Discover more about our projects</Button>
+          </Link>
         </div>
         <div className="cs-reviews">
           <div>
@@ -60,7 +63,9 @@ const Clients = () => {
             to target excellence.
           </p>
           <div>
-            <span class="material-symbols-outlined">star star star star star_half</span>
+            <span className="material-symbols-outlined">
+              star star star star star_half
+            </span>
           </div>
         </div>
       </div>

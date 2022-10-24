@@ -6,6 +6,7 @@ import materials from "../../assets/materials.png";
 import constructor from "../../assets/constructor.png";
 import Button from "../button/button.component";
 import ServicesBox from "../servicesBoxTemplate/servicesBoxTemplate.component";
+import { Link } from "react-router-dom";
 
 const servicesData = [
   {
@@ -43,7 +44,7 @@ const OfferedServices = () => {
             <h2>
               UNMATCHED <br /> SERVICES
             </h2>
-            <Button>Get free quotation</Button>
+           <Link to='services' className="link"><Button>Get free quotation</Button></Link> 
           </div>
 
           <img className="constructor-img" src={constructor} alt="" />

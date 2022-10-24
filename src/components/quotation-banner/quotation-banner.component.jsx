@@ -1,5 +1,6 @@
 import "./quotation-banner.style.scss";
 import Button from "../button/button.component";
+import { Link } from "react-router-dom";
 
 const QuotationBanner = () => {
   return (
@@ -12,7 +13,9 @@ const QuotationBanner = () => {
             consulting.
           </p>
         </div>
-        <Button buttonType="nomargin">GET FREE QUOTATION</Button>
+        <Link to="contactus" className="link">
+          <Button buttonType="nomargin">GET FREE QUOTATION</Button>
+        </Link>
       </div>
     </div>
   );

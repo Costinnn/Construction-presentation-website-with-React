@@ -1,0 +1,29 @@
+.aboutus-year-box{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    .year{
+        border: 1px solid #ff6542;
+        width: 60px;
+        height: 60px;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(to bottom, #ff6542, #ff65421f);
+        font-weight: 700;
+
+        p{
+            text-align: center;
+        }
+
+    }
+
+    .text{
+        background: linear-gradient(to left, #ff6542a9, #ff654200);
+        width: 80%;
+        display: flex;
+        align-items: center;
+        font-size: 1.2rem;
+    }
+}

@@ -13,7 +13,7 @@ const QuotationBanner = () => {
             consulting.
           </p>
         </div>
-        <Link to="contactus" className="link">
+        <Link to="/contactus" className="link">
           <Button buttonType="nomargin">GET FREE QUOTATION</Button>
         </Link>
       </div>

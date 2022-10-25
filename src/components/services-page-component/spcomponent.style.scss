@@ -1,31 +1,42 @@
 .sp-container{
     display: flex;
-    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+   
 
     .sp-img{
         
-        width: 600px;
+        width: 25vw;
+        max-width: 440px;
+        min-width: 300px;
+        height: 25vw;
+        max-height: 400px;
         overflow: hidden;
         border-radius: 200px;
 
         img{
-            width: 600px;
+            width: 30vw;
+            max-width: 500px;
+            min-width: 300px;
         }
     }
 
     .sp-text{
-        width: 500px;
+        width: 350px;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        
 
         h3{
-            align-self: center;
+            text-align: center;
             font-size: 2.5rem;
+            
         }
 
         p{
             font-size: 1.5rem;
+            text-align: center;
         }
     }
 }

@@ -1,12 +1,14 @@
 import "./services.style.scss";
+import housetitle from "../../assets/menu-pages/services/services-title-house.png";
 import excavation from "../../assets/menu-pages/services/excavation.png";
 import house from "../../assets/menu-pages/services/house.png";
 import instalations from "../../assets/menu-pages/services/instalations.jpg";
 import electricity from "../../assets/menu-pages/services/electricity.jpg";
-import interiorwork from "../../assets/menu-pages/services/interiorwork.jpg";
 import interiorfinishes from "../../assets/menu-pages/services/interior-finishes.jpg";
 import finishedhouse from "../../assets/menu-pages/services/housefinished.png";
 import SPComponent from "../../components/services-page-component/spcomponent";
+import Button from "../../components/button/button.component";
+import QuotationBanner from "../../components/quotation-banner/quotation-banner.component";
 
 const SERVICES_DATA = [
   {
@@ -31,13 +33,7 @@ const SERVICES_DATA = [
     id: 4,
     img: electricity,
     title: "Electricity work",
-    info: "We design and execute electrical installations for civil buildings with certified electricians. At the same time, we offer consultancy in choosing the best materials for each individual project.",
-  },
-  {
-    id: 5,
-    img: interiorwork,
-    title: "Interior work",
-    info: "We make plasters, mechanized hoes, plasterboard cladding, flashings and many others.",
+    info: "We execute electrical installations for buildings with certified electricians. At the same time, we offer consultancy in choosing the best materials for each individual project.",
   },
   {
     id: 6,
@@ -55,8 +51,20 @@ const SERVICES_DATA = [
 
 const ServicesPage = () => {
   return (
-    <div className="menu-page-positioning services-img">
-      <div className="background-color"></div>
+    <div className="menu-page-positioning">
+      <div>
+        <div className="background-color"></div>
+        <div className="services-img menu-pages-img"></div>
+      </div>
+      <div className="services-title">
+        <div>
+          <h1>We offer every civil construction service you can think of.</h1>
+          <Button>Get free quotation</Button>
+        </div>
+
+        <img src={housetitle} alt="" />
+      </div>
+
       <div className="services-page-container">
         {SERVICES_DATA.map((element) => (
           <SPComponent
@@ -66,7 +74,11 @@ const ServicesPage = () => {
             info={element.info}
           />
         ))}
+        <div className="shape1"></div>
+        <div className="shape2"></div>
+        <div className="shape3"></div>
       </div>
+      <QuotationBanner />
     </div>
   );
 };

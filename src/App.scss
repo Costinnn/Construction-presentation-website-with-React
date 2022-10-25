@@ -12,20 +12,28 @@
 
 .menu-page-positioning {
   width: 100vw;
-  height: 100vh;
   display: flex;
-  justify-content: center;
-  background-size: cover;
-  position: relative;
-  z-index: -2;
-  margin-top: -130px;
+  flex-direction: column;
+  align-items: center;
 
   .background-color {
-    background: linear-gradient(to right bottom, #000000 10%, rgba(0, 0, 0, 0));
-    height: 100%;
-    width: 100%;
     position: absolute;
     z-index: -1;
-    
+    width: 100vw;
+    height: 100%;
+    top: 0px;
+    left: 0;
+    background: linear-gradient(to right bottom, #000000 10%, rgba(0, 0, 0, 0));
+ 
+  }
+
+  .menu-pages-img{
+    background-size: cover;
+    position: absolute;
+    z-index: -2;
+    width: 100vw;
+    height: 100%;
+    top: 0px;
+    left: 0;
   }
 }

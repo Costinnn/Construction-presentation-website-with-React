@@ -10,6 +10,7 @@ const SPComponent = ({img, title, info}) => {
       <div className="sp-text">
         <h3>{title}</h3>
         <p>{info}</p>
+        <div className="shape"></div>
       </div>
     </div>
   );

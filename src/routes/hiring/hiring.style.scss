@@ -1,3 +1,40 @@
 .hiring-img{
-    background: url(../../assets/menu-pages/hiring.png);
+    background: url(../../assets/menu-pages/hiring.jpg);
+}
+
+.hiring-page-container{
+   width: 100%;
+   max-width: 1440px;
+   color: white;
+   
+    h1{
+        margin-top: 50px;
+        width: 50%;
+        min-width: 600px;
+        font-size: 2.5rem;
+        color: white;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+    }
+
+    p{
+        margin-top: 50px;
+        width: 600px;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 1.5rem;
+    }
+
+    h2{
+        background: linear-gradient(to bottom, #797b84, #797b842c);
+        margin-top: 50px;
+        width: 45%;
+        min-width: 600px;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 1.8rem;
+        text-align: center;
+    }
+       
 }

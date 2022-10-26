@@ -1,5 +1,16 @@
 .services-img {
   background-image: url(../../assets/menu-pages/services/services-background.jpg);
+  background-position: bottom;
+}
+
+.services-img2 {
+  background-image: url(../../assets/menu-pages/services/services-background2.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 1000px;
+  z-index: -3;
+  width: 100vw;
+  height: 1320px;
 }
 
 .services-title {
@@ -24,6 +35,7 @@
   img {
     width: 50%;
     min-width: 680px;
+    filter: brightness(70%);
   }
 }
 
@@ -38,34 +50,4 @@
   margin-right: auto;
   gap: 50px;
   overflow-x: hidden;
-
-  .shape1,
-  .shape2,
-  .shape3 {
-    position: absolute;
-    z-index: -3;
-    transform: skew(-30deg);
-  }
-
-  .shape1 {
-    background: linear-gradient(to bottom, #ff65429f, #ff65421f);
-    height: 100%;
-    width: 550px;
-    top: 0px;
-    left: 450px;
-  }
-  .shape2 {
-    background: linear-gradient(to top, #ff6542, #ff654200);
-    height: 50%;
-    width: 350px;
-    bottom: 0px;
-    right: 0;
-  }
-  .shape3 {
-    background: linear-gradient(to bottom, #ff6542, #ff654200);
-    height: 50%;
-    width: 350px;
-    top: 0px;
-    left: 0;
-   }
 }

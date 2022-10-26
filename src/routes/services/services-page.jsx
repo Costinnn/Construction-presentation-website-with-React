@@ -56,6 +56,7 @@ const ServicesPage = () => {
         <div className="background-color"></div>
         <div className="services-img menu-pages-img"></div>
       </div>
+      <div className="services-img2"></div>
       <div className="services-title">
         <div>
           <h1>We offer every civil construction service you can think of.</h1>
@@ -74,9 +75,6 @@ const ServicesPage = () => {
             info={element.info}
           />
         ))}
-        <div className="shape1"></div>
-        <div className="shape2"></div>
-        <div className="shape3"></div>
       </div>
       <QuotationBanner />
     </div>

@@ -1,3 +1,27 @@
+This is my first project made with React and SCSS. This is inspired by a template from pinterest and transformed for a construction company website.
+
+Home page is made of components as it's seen on the photos below:
+
+![s1](https://user-images.githubusercontent.com/103998434/198868813-84de67dc-7bda-45e0-9ab6-2078bb7c7249.png)
+
+
+![s2](https://user-images.githubusercontent.com/103998434/198868814-586828c9-46bb-46a1-99f7-ca992afb081c.png)
+
+
+This is part of the source code from the Homepage element and two of it's components:
+
+
+![s5](https://user-images.githubusercontent.com/103998434/198868844-cfcc5937-278f-43bc-9974-fb4f51eb645a.png)
+
+
+This is Portfolio section made of a component that renders the elements from an Array of data:
+
+![s3](https://user-images.githubusercontent.com/103998434/198868883-23a3951b-b48a-4a66-abad-4521b5263210.png)
+
+![s4](https://user-images.githubusercontent.com/103998434/198868892-8dca2f68-71bf-431c-85df-6ff8cd37f6d6.png)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
